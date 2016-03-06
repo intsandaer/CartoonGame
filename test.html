@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Cases</title>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+<script>
+    function testAddCredit() {
+        var creditObj = new Credit(100);
+        creditObj.addCredit(10);
+        alert(parseInt(creditObj.credit) == parseInt(110));
+    }
+    function testSubtractCredit() {
+        var creditObj = new Credit(100);
+        creditObj.subtractCredit(10);
+        alert(parseInt(creditObj.credit) == parseInt(90));
+    }
+
+</script>
+<strong>Credit: <label id="lblCredit">100</label></strong>
+<br/><br/>
+
+<input type="button" value="Test Add Credit" onclick="testAddCredit();"/>
+<input type="button" value="Test Subject Credit" onclick="testSubtractCredit();"/>
+
+</body>
+</html>

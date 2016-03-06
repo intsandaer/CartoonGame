@@ -1,0 +1,139 @@
+#main{
+    background: gold;
+    border: 7px solid OrangeRed;
+    width: 500px;
+    height: 550px;
+    padding: 10px;
+    margin:  20px auto auto;
+}
+
+.credit{
+    float: right;
+    font-size: x-large;
+    color:black;
+}
+.items{
+    clear: both;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.item {
+    width: 70px;
+    height: 70px;
+    background:honeydew;
+    float:left;
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+#item1, #item5,#item15,#bid1{
+    background-image: url("../images/barbie.jpg");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 60px 60px;
+}
+
+#item2,#item6,#item18,#bid2{
+    background-image: url("../images/frozen.jpg");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 60px 60px;
+}
+
+#item3,#item10,#item17,#bid3{
+    background-image: url("../images/micimacko.gif");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 60px 60px;
+}
+
+#item4,#item11,#item19,#bid4{
+    background-image: url("../images/tinkerbell.jpg");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 60px 60px;
+}
+
+#item16,#item20,#bid5{
+    background-image: url("../images/woody.jpg");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 60px 60px;
+}
+
+.row{
+    float: left;
+    margin-top: 13px;
+}
+
+.bid{
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.buttons{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.buttons #play{
+    width: 80px;
+    height: 40px;
+    background: maroon;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons #reset{
+    width: 80px;
+    height: 40px;
+    background: indigo;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons #loadCredit{
+    width: 100px;
+    height: 40px;
+    background: DarkGreen ;
+    color: white;
+    cursor: pointer;
+}
+.buttons #guide{
+    width: 120px;
+    height: 40px;
+    background:Chocolate  ;
+    color: white;
+    cursor: pointer;
+}
+
+
+.buttons #spin {
+    width:80px;
+    height: 40px;
+    background:cadetblue;
+    cursor: pointer;
+}
+
+
+.rate {
+    width: 70px;
+    height: 20px;
+    background:none;
+    float:left;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+#rate1 {
+    margin-left: 75px;
+}
+
+#rate2,#rate3,#rate4,#rate5 {
+    margin-left: 11px;
+}
